@@ -2,7 +2,6 @@ import DescribedError
 
 @DescribedError enum MyCustomError: Error {
     
-    /// Invalid status code
     case invalidStatusCode
 }
 
